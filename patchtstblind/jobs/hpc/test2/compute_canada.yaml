@@ -1,4 +1,0 @@
-virtual_env: "torch2.2_cuda12.2"
-modules: "StdEnv/2023 cuda/12.2 cudnn/8.9.5.29 python/3.10"
-logdir: "/home/xmootoo/projects/def-milad777/xmootoo/time-series/time-series-jepa/time_series_jepa/hpc/logs/test2"
-script_path: "/home/xmootoo/projects/def-milad777/xmootoo/time-series/time-series-jepa/time_series_jepa/hpc/test2/test2.py"
