@@ -4,7 +4,7 @@ import yaml
 import argparse
 from rich.console import Console
 
-def run_script(cli_input, script_path, ddp=False):
+def run_script(cli_input, script_path):
     """
         Run a script locally (e.g., training).
     Args:
