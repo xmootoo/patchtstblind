@@ -2,14 +2,14 @@
 
 ### This is an un-offical implementation of PatchTST: [A Time Series is Worth 64 Words: Long-term Forecasting with Transformers](https://arxiv.org/abs/2211.14730). 
 
-Original workers on the paper offer a video that provides a concise overview of our paper for individuals seeking a rapid comprehension of its contents: https://www.youtube.com/watch?v=Z3-NrohddJw
+The original authors provide a video with a concise overview of the paper for individuals seeking further comprehension: https://www.youtube.com/watch?v=Z3-NrohddJw
 
 
 ## Key Designs
 
-:star2: **Patching**: segmentation of time series into subseries-level patches which are served as input tokens to Transformer.
+:star2: **Patching**: segmentation of time series into subseries-level patches which are used as input tokens to the Transformer.
 
-:star2: **Channel-independence**: each channel contains a single univariate time series that shares the same embedding and Transformer weights across all the series.
+:star2: **Channel-independence**: each channel is processed independently by the Transformer to predict the forecast. The prediction for multivariate time series is a concatenation of the channel predictions, as shown in the figure below.
 
 ![alt text](https://github.com/xmootoo/patchtstblind/blob/main/assets/model.png)
 
@@ -36,7 +36,7 @@ https://github.com/timeseriesAI/tsai
 
 ### Download Datasets
 
-To download the datasets, please use the following link to access our shared Google Drive folder. Once downloaded, place the data folder in root of the github directory
+To download the datasets, please use the following link to access our shared Google Drive folder. Once downloaded, place the `data` folder in root of the github directory
 
 [https://drive.google.com/drive/folders/14VMQ5msUCNvZkEJqpEfvF2Ul0iBpzWTz?usp=sharing](https://drive.google.com/drive/folders/14VMQ5msUCNvZkEJqpEfvF2Ul0iBpzWTz?usp=sharing)
 
@@ -44,7 +44,7 @@ To download the datasets, please use the following link to access our shared Goo
 
 To run tests on the model, navigate to the `patchtstblind/jobs/local` directory and locate the `submit.py` file. Execute the file using the following command:
 
-there you can run ``python submit.py --exp_name etth1/etth1_512_96`` running that argument yaml (args.yaml) within the ``patchtstblind/jobs/exp/patchtst/etth1/etth1_512_96`` directory.
+there you can run ``python submit.py --exp_name "etth1/etth1_512_96"`` running that argument yaml (args.yaml) within the ``patchtstblind/jobs/exp/patchtst/etth1/etth1_512_96`` directory.
 
 ```bash
 cd patchtstblind/jobs/local
