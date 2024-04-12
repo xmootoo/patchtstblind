@@ -5,7 +5,7 @@ required = []
 with open('requirements.txt') as f:
 	required = f.read().splitlines()
 
-setup(name='time_series_jepa',
+setup(name='patchtstblind',
 	  version='0.0.1',
 	  packages=find_packages(),
 	  description='Time Series Joint-Embedding Predictive Architecture (JEPA)',
