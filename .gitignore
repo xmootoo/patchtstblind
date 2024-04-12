@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+time_series_jepa.egg-info/
+.eggs/
+time_series_jepa/hpc/logs/
+data/
+checkpoint/
+**/.neptune
