@@ -32,13 +32,15 @@ https://github.com/ts-kim/RevIN
 https://github.com/timeseriesAI/tsai
 
 
-### Get Started
+## Get Started
 
-## Download Datasets
+### Download Datasets
 
 To download the datasets, please use the following link to access our shared Google Drive folder. Once downloaded, place the data folder in root of the github directory
 
 [https://drive.google.com/drive/folders/14VMQ5msUCNvZkEJqpEfvF2Ul0iBpzWTz?usp=sharing](https://drive.google.com/drive/folders/14VMQ5msUCNvZkEJqpEfvF2Ul0iBpzWTz?usp=sharing)
+
+### Train Model
 
 To run tests on the model, navigate to the `patchtstblind/jobs/local` directory and locate the `submit.py` file. Execute the file using the following command:
 
