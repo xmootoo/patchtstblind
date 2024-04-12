@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
 setup(name='patchtstblind',
 	  version='0.0.1',
 	  packages=find_packages(),
-	  description='Time Series Joint-Embedding Predictive Architecture (JEPA)',
+	  description='PatchTST, is a Transformer-based models for multivariate time series forecasting',
       # requires=required,
 	  author='Xavier Mootoo, Luca Vivona',
 	  author_email='xmootoo@my.yorku.ca, luca01@my.yorku.ca',
