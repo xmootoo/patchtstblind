@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: patchtstblind
+Version: 0.0.1
+Summary: PatchTST, is a Transformer-based models for multivariate time series forecasting
+Author: Xavier Mootoo, Luca Vivona
+Author-email: xmootoo@my.yorku.ca, luca01@my.yorku.ca
+Requires-Python: >=3.10

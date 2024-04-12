@@ -52,9 +52,9 @@ class Experiment:
         """
 
         # SL dataloaders
-        self.train_data, self.train_loader = data_provider(self.args, flag="train", mode="sl")
-        self.val_data, self.val_loader = data_provider(self.args, flag="val", mode="sl")
-        self.test_data, self.test_loader = data_provider(self.args, flag="test", mode="sl")
+        self.train_data, self.train_loader = data_provider(self.args, flag="train")
+        self.val_data, self.val_loader = data_provider(self.args, flag="val")
+        self.test_data, self.test_loader = data_provider(self.args, flag="test")
 
             # SL Logging
         if self.logger_run is not None:
