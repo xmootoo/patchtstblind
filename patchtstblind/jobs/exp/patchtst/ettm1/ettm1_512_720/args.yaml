@@ -24,4 +24,4 @@ pred_dropout: 0.0
 early_stopping : True
 exp_id: "patchtst_patchtstblind_ettm1_512_720"
 best_model_path: "checkpoint/ettm1_512_720/patchtst"
-api_token : eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiJjZmVlNDAxMS1hOTQyLTQ0MjUtODliNi1iZTkzOTVmMTI1OTUifQ==
+

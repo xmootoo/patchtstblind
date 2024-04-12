@@ -24,4 +24,4 @@ pred_dropout: 0.0
 early_stopping : True
 exp_id: "patchtst_patchtstblind_illness_512_36"
 best_model_path: "checkpoint/illness_512_36/patchtst"
-api_token : eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiJjZmVlNDAxMS1hOTQyLTQ0MjUtODliNi1iZTkzOTVmMTI1OTUifQ==
+
