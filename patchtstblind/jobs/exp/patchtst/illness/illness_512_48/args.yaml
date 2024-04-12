@@ -1,0 +1,27 @@
+model_id: "PatchTSTBlind"
+seq_len: 512
+pred_len: 48
+sl_epochs: 100
+sl_batch_size: 32
+lr: 1e-4
+patience: 10
+train_split: 0.6
+test_split: 0.2
+num_channels: 7
+num_workers: 8
+scheduler: None
+data: "custom"
+root_path: "../../../data/"
+data_path: "illness.csv"
+learning_type: "sl"
+num_enc_layers: 3
+d_model: 16
+d_ff: 128
+num_heads: 4
+attn_dropout: 0.2
+ff_dropout: 0.2
+pred_dropout: 0.0
+early_stopping : True
+exp_id: "patchtst_patchtstblind_illness_512_48"
+best_model_path: "checkpoint/illness_512_48/patchtst"
+api_token : eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiJjZmVlNDAxMS1hOTQyLTQ0MjUtODliNi1iZTkzOTVmMTI1OTUifQ==

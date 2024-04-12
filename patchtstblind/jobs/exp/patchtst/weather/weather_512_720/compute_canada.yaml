@@ -1,0 +1,3 @@
+virtual_env: "torch2.2_cuda12.2"
+modules: "StdEnv/2023 cuda/12.2 cudnn/8.9.5.29 python/3.10"
+script_path: "../../../main.py"

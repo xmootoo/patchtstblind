@@ -1,0 +1,9 @@
+gpus_per_node: 1
+tasks_per_node: 4
+cpus_per_task: 10
+slurm_mem_per_cpu: 12 # GB
+slurm_time: "23:59:00"
+slurm_array_parallelism: 1
+slurm_account: "def-milad777"
+slurm_mail_user: "xmootoo@gmail.com"
+slurm_mail_type: "ALL"
