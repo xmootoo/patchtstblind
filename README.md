@@ -56,7 +56,7 @@ and locate the `submit.py` file. Execute the file using the following command:
 ```bash
 python submit.py --exp_name "<exp_name>"
 ```
-All experiments are contained in `patchtstblind/jobs/exp` with experimental parameters contained in the `args.yaml` files. For example, if you wish to run the ETTh1 experiment with sequence length $L = 512$ and prediction length $T = 96$:
+All experiments are contained in `patchtstblind/jobs/exp` with experimental parameters stored in the `args.yaml` files. For example, if you wish to run the ETTh1 experiment with sequence length $L = 512$ and prediction length $T = 96$:
 ```bash
 python submit.py --exp_name "etth1/etth1_512_96"
 ```
