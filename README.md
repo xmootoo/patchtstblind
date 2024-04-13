@@ -48,15 +48,18 @@ pip install -e .
 
 ### Train Model
 
-To run tests on the model, navigate to the `patchtstblind/jobs/local` directory and locate the `submit.py` file. Execute the file using the following command:
-
-there you can run ``python submit.py --exp_name "etth1/etth1_512_96"`` running that argument yaml (args.yaml) within the ``patchtstblind/jobs/exp/patchtst/etth1/etth1_512_96`` directory.
-
+To run the experiments, navigate to the `patchtstblind/jobs/local` directory:
 ```bash
 cd patchtstblind/jobs/local
-python submit.py --exp_name etth1/etth1_512_96
 ```
-
+and locate the `submit.py` file. Execute the file using the following command:
+```bash
+python submit.py --exp_name "<exp_name>"
+```
+All experiments are contained in `patchtstblind/jobs/exp` with experimental parameters contained in the `args.yaml` files. For example, if you wish to run the ETTh1 experiment with sequence length $L = 512$ and prediction length $T = 96$:
+```bash
+python submit.py --exp_name "etth1/etth1_512_96"
+```
 
 ### Citation 
 
