@@ -40,6 +40,12 @@ To download the datasets, please use the following link to access our shared Goo
 
 [https://drive.google.com/drive/folders/14VMQ5msUCNvZkEJqpEfvF2Ul0iBpzWTz?usp=sharing](https://drive.google.com/drive/folders/14VMQ5msUCNvZkEJqpEfvF2Ul0iBpzWTz?usp=sharing)
 
+### Install the Package
+Before using the code, please install `patchtstblind` as a package to allow imports using the following:
+```bash
+pip install -e .
+```
+
 ### Train Model
 
 To run tests on the model, navigate to the `patchtstblind/jobs/local` directory and locate the `submit.py` file. Execute the file using the following command:
